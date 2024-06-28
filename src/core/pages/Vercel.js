@@ -1,11 +1,5 @@
 import React from 'react';
 
-export default class extends React.Component {
-    render() {
-        return (
-            <div>
-                Hello Vercel
-            </div>
-        );
-    }
+export default function Vercel() {
+	return <div>Hello Vercel</div>;
 }
